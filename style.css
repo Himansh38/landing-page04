@@ -8,36 +8,33 @@ html,body{
     width: 100%;
     
 }
-nav{
-    height: 8vh;
+#nav{
+    height:70px;
     width: 100%;
-    position: relative;
+    /* background-color: red; */
     display: flex;
-    background-color: #000;
-    text-align: center;
+    align-items: center;
     justify-content: space-between;
+    background-color: aliceblue;
+    
 }
-nav h3{
-    margin: 20px 20px;  
-    color: #fff;
-    font-size: 20px;
-    text-transform: uppercase;
+#nav-part2{
+    display: flex;
+    gap: 55px;
+  
 }
-nav #nav>h3{
-    margin: 20px 90px;  
-    color: #fff;
-    font-size: 20px;
-    position: relative;
-    text-transform: uppercase;
+#nav-part3{
+    display: flex;
+    gap: 55px;
+    align-items: center;
+  
+    padding: 18px 25px;
+    
 }
-nav  #nav>i{
-    height: 50px;
-    width: 50px;
-    font-size: 50vh;
-    color: #000;
-    margin-top: 2px;
-    position: absolute;
-}
+#nav img{
+    height: 65px;
+    
+} 
 #main{
     height: 100%;
     width: 100%;
